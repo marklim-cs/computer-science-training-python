@@ -16,7 +16,7 @@ class HashTable:
         return index
 
     def insert(self, value):
-        if self._counter / len(self._array) > 0.7:
+        if self.load_factor(self._counter, len(self._array))[1]:
             self._resize()
 
         index = self._hash_function(value, self._array)
@@ -47,3 +47,12 @@ class HashTable:
     def items(self):
         copied_arr = copy.deepcopy(self._array)
         return copied_arr
+
+    def load_factor(self, counter: int, length: int) -> tuple:
+        factor = counter / length
+
+        if factor >= 0.7:
+            return factor, True
+        else:
+            return factor, False
+
