@@ -7,13 +7,12 @@ class HashTable:
         self._counter = 0
 
     def _hash_function(self, value, arr):
+        num_value = hash(value)
         length = len(arr)
-        sum_ord = 0
-        for char in value:
-            sum_ord += ord(char)
+        index = num_value % length
 
-        index = sum_ord % length
         return index
+
 
     def insert(self, value):
         if self.load_factor(self._counter, len(self._array))[1]:
@@ -55,4 +54,3 @@ class HashTable:
             return factor, True
         else:
             return factor, False
-

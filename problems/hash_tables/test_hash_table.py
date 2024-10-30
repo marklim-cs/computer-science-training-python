@@ -20,6 +20,16 @@ class TestHashTable(unittest.TestCase):
         arr.insert("Thomas")
         self.assertEqual(arr.items(), [['Doo', 'Thomas'], None, None, ['Lisa', 'Stuart', 'Adelle'], None, ['Bob'], None, None, ['Alla'], None])
 
+    def test_insert_same_index1(self):
+        arr = HashTable()
+        arr.insert(1)
+        arr.insert(3)
+        arr.insert(4)
+        arr.insert(3)
+        arr.insert(6)
+        arr.insert(0)
+        self.assertEqual(arr.items(), [[0], [1], None, [3, 3], [4], None, [6], None,  None, None])
+
     def test_resize(self):
         arr = HashTable()
         arr.insert("Alla") #378
