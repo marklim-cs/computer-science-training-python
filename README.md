@@ -5,54 +5,47 @@ Code implementations can be found in "problems" folder.
 Topics studied and implememnted: 
 1. data_types 
 	* lists
-	#tuples 
-	#dictionaries 
-	#sets
+	* tuples 
+	* dictionaries 
+	* sets
 	
 2. unicode
 3. functions 
-	#enumerate
-	#intersect 
-	#filter
-	#count 
-	#sort 
-	#sorted 
-	#map
-	#any
+	(enumerate, intersect, filter, count, sort, sorted, map, any etc..)
 4. recursion
 	
 5. files
 6. modules
 7. oop_classes 
-	#abstract_class
-	#static_method 
-	#inheritance
-	#overriding_methods
-	#magic_methods
+	* abstract_class
+	* static_method 
+	* inheritance
+	* overriding_methods
+	* magic_methods
 	
 8. unittest
 	
 9. sorting_algorithms
-	#Bubble_sort 
-	#Insertion_sort 
-	#Selection_sort 
-	#binary_search
+	* Bubble_sort 
+	* Insertion_sort 
+	* Selection_sort 
+	* binary_search
 
 11. data_structures
-	#stack
-	#queue
+	* stack
+	* queue
  
  11.1 trees 
-  #binary_tree 
-  #binary_search_tree
+  * binary_tree 
+  * binary_search_tree
   
  11.2 hash tables 
 
  11.3 linked_lists
-	#singly_linked_list
-	#doubly_linked_list
+	* singly_linked_list
+	* doubly_linked_list
  	
 12. polymorphism
 13. scope
-	#sys_path
+	* sys_path
 	 
