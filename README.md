@@ -4,7 +4,7 @@ Code implementations can be found in "problems" folder.
 
 Topics studied and implememnted: 
 1. data_types 
-	#lists
+	* lists
 	#tuples 
 	#dictionaries 
 	#sets
