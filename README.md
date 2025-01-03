@@ -39,11 +39,11 @@ Topics studied and implememnted:
   		* binary_tree 
   		* binary_search_tree
   
-    	10.2 hash tables 
+    10.2 hash tables 
 
-    	10.3 linked_lists
-		* singly_linked_list
-		* doubly_linked_list
+    10.3 linked_lists
+	* singly_linked_list
+	* doubly_linked_list
  	
 12. polymorphism
 13. scope
