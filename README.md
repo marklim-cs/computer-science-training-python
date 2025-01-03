@@ -31,19 +31,19 @@ Topics studied and implememnted:
 	* Selection_sort 
 	* binary_search
 
-11. data_structures
+10. data_structures
 	* stack
 	* queue
  
- 11.1 trees 
-  * binary_tree 
-  * binary_search_tree
+	10.1 trees 
+  		* binary_tree 
+  		* binary_search_tree
   
- 11.2 hash tables 
+    	10.2 hash tables 
 
- 11.3 linked_lists
-	* singly_linked_list
-	* doubly_linked_list
+    	10.3 linked_lists
+		* singly_linked_list
+		* doubly_linked_list
  	
 12. polymorphism
 13. scope
